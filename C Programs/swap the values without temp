@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+    int a,b;
+    printf("enter a");
+    scanf("%d",&a);
+    printf("enter b");
+    scanf("%d",&b);
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    printf("the swapping value is a=%d,b=%d\n",a,b);
+}
+
+output
+enter a 7
+enter b 9
+the swapping value is a=9,b=7
