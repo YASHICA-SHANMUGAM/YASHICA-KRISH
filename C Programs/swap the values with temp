@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+    int a,b,temp;
+    printf("enter a");
+    scanf("%d",&a);
+    printf("enter b");
+    scanf("%d",&b);
+    temp=a;
+    a=b;
+    b=temp;
+    printf("the swapping value is a=%d,b=%d\n",a,b);
+}
+
+output
+enter a 5 
+enter b 6
+the swapping value is a=6,b=5
