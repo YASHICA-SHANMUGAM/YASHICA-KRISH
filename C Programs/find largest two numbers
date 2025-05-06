@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main()
+{
+  int a,b;
+  printf("enter the two numbers");
+  scanf("%d %d",&a,&b);
+  if(a>b)
+  {
+      printf("enter a is larger");
+  }
+  else if(a<b)
+  {
+      printf("enter b is larger");
+  }
+  else
+  {
+      printf("both are equal");
+  }
+}
+
+output
+
+enter the two numbers9 7
+enter a is larger
