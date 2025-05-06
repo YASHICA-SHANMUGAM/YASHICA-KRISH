@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main()
+{
+  int a,i;
+  printf("enter the value of a");
+  scanf("%d",&a);
+  printf("even number from 1 to %d \n",a);
+  for(i=1;i<=a;i++)
+  {
+      if(i%2==0)
+      {
+          printf("%d \n",i);
+      }
+  }
+
+}
+
+output
+
+enter the value of a 10
+even number from 1 to 10 
+2 
+4 
+6 
+8 
+10 
