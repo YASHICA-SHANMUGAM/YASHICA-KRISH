@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+    int n=0,rem,res=0,org,num;
+    printf("enter num :");
+    scanf("%d",&num);
+    org=num;
+    while(org!=0)
+    {
+        org=org/10;
+        n++;
+    }
+    org=num;
+    while(org!=0)
+    {
+        rem=org%10;
+        res+=pow(rem,n);
+        org=org/10;
+    }
+    if(num==res)
+    {
+        printf("the armstrong number is %d",num);
+    }
+    else
+    {
+       printf("the armstrong number not is %d",num); 
+    }
+    return 0;
+}
+
+o/p
+
+enter num : 321
+the armstrong number not is 321
