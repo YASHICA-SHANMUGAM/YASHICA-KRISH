@@ -1,0 +1,29 @@
+#include <stdio.h>
+int main()
+{
+    int a,rem,rev,org;
+    printf("enter a");
+    scanf("%d",&a);
+    rev=0;
+    org=a;
+    while(a!=0)
+    {
+        rem=a%10;
+        rev=rev*10+rem;
+        a=a/10;
+    }
+    if(org==rev)
+    {
+        printf("the number is palindrome");
+    }
+    else
+    {
+        printf("the number is not palindrome");
+    }
+}
+
+
+o/p
+
+enter a121
+the number is palindrome
