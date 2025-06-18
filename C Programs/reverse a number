@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main()
+{
+    int a,rev,rem;
+    printf("enter a:");
+    scanf("%d",&a);
+    rev=0;
+    while(a!=0)
+    {
+        rem=a%10;
+        rev=rev*10+rem;
+        a=a/10;
+    }
+    printf("%d",rev);
+    return 0;
+}
+
+
+o/p
+
+enter a:9793
+3979
